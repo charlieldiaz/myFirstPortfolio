@@ -1,0 +1,89 @@
+.home .logo {
+  border: 5px solid #fff;
+  height: 130px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 4rem;
+  color: white;
+  line-height: 0; }
+
+.home .info-section {
+  padding: 54px;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0; }
+  .home .info-section .info-box {
+    padding: 54px;
+    position: absolute;
+    bottom: 60px; }
+    .home .info-section .info-box h4 {
+      font-size: 1.2rem;
+      color: #fefefe;
+      margin: 0.7rem 0; }
+    .home .info-section .info-box p {
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: #fefefe;
+      margin: 0.2rem 0 1.6; }
+    .home .info-section .info-box .icon-section a {
+      color: white;
+      text-decoration: none;
+      font-size: 2grem;
+      padding: 0 10px; }
+      .home .info-section .info-box .icon-section a:hover {
+        color: #79D8FF; }
+
+.home .content-area {
+  margin-left: 35%;
+  width: 65%;
+  background: white;
+  height: 100%;
+  background: #fefefe; }
+  .home .content-area .img-container {
+    width: 25%;
+    display: inline-block;
+    position: relative; }
+    .home .content-area .img-container .user-img {
+      top: 56px;
+      position: absolute;
+      left: -200px;
+      width: 400px;
+      height: 600px;
+      background: url("https://i.pinimg.com/736x/4e/7b/76/4e7b76f7d680884a05b131a599164cff--unique-faces-model-face.jpg") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-shadow: 5px 17px 137px -24px black;
+      -moz-box-shadow: 5px 17px 137px -24px black;
+      box-shadow: 5px 17px 137px -24px black; }
+  .home .content-area .profile-section {
+    max-width: 500px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 20% 0 0 0; }
+    .home .content-area .profile-section .profile h1 {
+      font-size: 2.3rem;
+      font-weight: 500;
+      line-height: 1.2;
+      margin: 0 0 1.7rem 0; }
+      .home .content-area .profile-section .profile h1 span {
+        color: #4b21ff; }
+    .home .content-area .profile-section .profile h5 {
+      font-size: 1.1rem;
+      margin: 0 0 1rem; }
+    .home .content-area .profile-section .profile p {
+      color: #bdbdbd;
+      font-weight: 300;
+      line-height: 1.4;
+      margin: 0 0 2rem 0; }

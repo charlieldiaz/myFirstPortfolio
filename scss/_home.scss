@@ -1,0 +1,218 @@
+@import "variables";
+.home{
+
+  .info-section{
+
+    padding: 54px;
+    width: 35%;
+
+  }
+  .content-area{
+    margin-left: 35%;
+    width: 65%;
+    height: 100%;
+    background: $color3;
+
+
+    .img-container{
+      width: 25%;
+      display: inline-block;
+      position: relative;
+    .user-img{
+
+      top: 56px;
+      position: absolute;
+      left: -200px;
+      width: 400px;
+      height: 600px;
+      //Whole Backgroud
+      background: url("https://i.pinimg.com/736x/4e/7b/76/4e7b76f7d680884a05b131a599164cff--unique-faces-model-face.jpg")
+      no-repeat center center ;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+//shadows starts here
+-webkit-box-shadow: 5px 17px 137px -24px rgba(0,0,0,1);
+-moz-box-shadow: 5px 17px 137px -24px rgba(0,0,0,1);
+box-shadow: 5px 17px 137px -24px rgba(0,0,0,1);
+
+            }
+      }
+    .profile-section{
+      max-width: 600px;
+      vertical-align: top;
+      //margin-left:200px;
+      display: inline-block;
+      padding: 20% 0 0 0;
+      .profile{
+        h1{
+          font-size: 2.3rem;
+          font-weight: 500;
+          line-height: 1.2;
+          margin: 0 0 1.7rem 0;
+          span{
+            color: $color1;
+          }
+
+        }
+        h5{
+          font-size: 1.1rem;
+          margin: 0 0 1rem;
+
+        }
+        p{
+          color: $color5;
+          font-weight: 300;
+          line-height: 1.4;
+          margin: 0 0 2rem 0;
+          }
+
+
+      }
+    }
+  }
+}
+
+//mobile
+@media (max-width: 900px) and (max-width: 991px){
+  .home {
+    .menu-icon{
+      top: -3px;
+      right: 20px;
+      .fa{
+        color: white;
+      }
+    }
+
+    .content-area{
+      height: auto;
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    }
+    .info-section{
+      position: static;
+      padding: 10px 20px;
+      .logo{
+        height: 50px;
+        width: 70px;
+        font-size: 1rem;
+      }
+      .info-box{
+        display: none;
+      }
+
+    }
+    .content-area{
+      margin-left: 0;
+      width: 100%;
+
+      .img-container{
+        padding: 56px 20px 0;
+        .user-img{
+          position: static;
+          width: 100%;
+        }
+
+      }
+      .profile-section{
+        width: 70%;
+        float: right;
+        padding: 20% 20px 0;
+      }
+      .profile{
+        .primary-btn, .ghost-btn{
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  }
+  //tablet
+  //tablet
+@media (min-width: 901px)and (max-width: 991px){
+  .home {
+    .content-area{
+      .img-container{
+        padding: 56px 20px 0;
+        .user-img{
+          position: static;
+          width: 100%;
+        }
+      }
+      .profile-section{
+        width: 70%;
+        float: right;
+        padding: 20% 20px 0;
+      }
+      .profile{
+        .primary-btn, .ghost-btn{
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+ }
+
+ //laptop
+@media (min-width: 992px) and (max-width: 1299px) {
+      .home {
+        .content-area{
+          .img-container{
+            padding: 56px 20px 0;
+            float: left;
+            .user-img{
+              position: static;
+              width: 100%;
+            }
+          }
+          .profile-section{
+            width: 70%;
+            float: left;
+            padding: 20% 60px;
+            max-width: 800px
+
+            //padding: 20% 20px 0;
+          }
+
+        }
+      }
+ }
+ //Big devices
+@media (min-width: 1300px) {
+
+    .home {
+      .content-area{
+        //width: 80%;
+        //margin-left: 20%;
+        .img-container{
+          padding: 56px 20px 0;
+          float: left;
+          left:-150px;
+          .user-img{
+            position: static;
+            width:400px;
+          }
+        }
+
+        .profile-section{
+          width: 70%;
+          float: left;
+          padding: 20% 60px 0;
+          max-width: 800px
+        }
+        .profile{
+          .primary-btn, .ghost-btn{
+            margin-bottom: 20px;
+
+          }
+        }
+
+      }
+    }
+
+ }
